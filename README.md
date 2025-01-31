@@ -1,1 +1,2 @@
 "# React-PopularMoviesApp" 
+"# ReactPopularMovieApp" 
