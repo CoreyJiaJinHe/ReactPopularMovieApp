@@ -2,18 +2,18 @@ const mongoose = require ('mongoose');
 
 const searchTerm = mongoose.Schema(
     {
-        text:{
+        queryText:{
             type: String,
             required: [true],
         },
         count:{
-            type: int,
+            type: Number,
         },
         poster_url:{
-            type: url,
+            type: String,
         },
-        id:{
-            type: int,
+        movie_id:{
+            type: String,
             required: [true],
         },
     },
